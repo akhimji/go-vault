@@ -33,7 +33,7 @@ func main() {
 	fmt.Printf("hello: %v\n", m["name"])
 
 	for k, v := range m {
-		fmt.Println("key: ", k, "value: ", v)
+		fmt.Println("key-->", k, "value-->", v)
 
 	}
 }
